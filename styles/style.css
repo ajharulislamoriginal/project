@@ -252,6 +252,7 @@
 
 
   .heading_item_2 ul li {
+    margin: 0 auto;
      gap:4px;
      background-color: aliceblue;
      padding: 4px 8px;
