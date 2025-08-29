@@ -5,3 +5,46 @@
 3. What is **Event Bubbling** and how does it work?
 4. What is **Event Delegation** in JavaScript? Why is it useful?
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
+
+
+১নং প্রশ্নের উত্তর :
+getElementById এটা শুরু আইডে দেয়।
+
+getElementByClassName এটা একাদিক এলিমেন্ট দেয়। ক্লাস আকারে
+
+querySeletor এটা সি এস এস মতো অনেক একাদিক এলিমেন্টে কাজ করে।
+
+querySelectorAll  এটা সআ এলিমেন্ট দেয়।
+
+
+
+২নং প্রশ্নের উত্তর :
+DOM  এ নতুন এলিমেন্ট তৈরি করা 
+
+ আগে document.createElement("tagName") দিয়ে এলিমেন্ট তৈরি করতে হয়।
+
+ তারপর চাইলে element.textContent বা innerHTML দিয়ে কন্টেন্ট দিতে হয়।
+
+
+DOM এ ঢুকিয়ে দিতে হয়।
+
+
+
+
+৩ নং প্রশ্নের উত্তর :
+Event Bubbling কী কিভাবে কাজ করে?
+
+Event Bubbling মানে হলো – যখন কোনো element এ event ঘটে (যেমন click), তখন সেটা ভিতরের element থেকে বাইরে দিকে একে একে parent element গুলোতেও পৌঁছে যায়।
+
+
+
+
+
+
+৪ নং প্রশ্নের উত্তর : Delegation কী কেন দরকারি?
+
+Event Delegation হলো – parent element এ একটা event listener বসানো, তারপর child element গুলোর event কে সেখান থেকে হ্যান্ডেল করা।
+
+
+
+

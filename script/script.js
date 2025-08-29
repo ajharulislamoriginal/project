@@ -19,9 +19,9 @@ const callButtons = document.querySelectorAll(".btn-call");
 
            historyDiv.classList.add("single-history");
             historyDiv.style.marginTop = "10px";
-            historyDiv.style.padding = "10px";
+            historyDiv.style.padding = "8px";
             historyDiv.style.borderRadius = "10px"
-            historyDiv.style.fontSize = "30px"
+            historyDiv.style.fontSize = "20px"
             historyDiv.style.border = "3px solid #ddd";
             historyDiv.innerHTML = `
               <div style="display: flex; justify-content: space-between; align-items: center;">
