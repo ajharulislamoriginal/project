@@ -247,18 +247,18 @@
 
 
 .heading_item_2 ul li img {
- width:10px;
+ width:8px;
  }
 
 
   .heading_item_2 ul li {
-     gap:4px;
+     gap:3px;
      background-color: aliceblue;
-     padding: 5px 8px;
+     padding: 3px 5px;
      border-radius: 1.2rem;
      text-decoration: none;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 9px;
 
  }
 
