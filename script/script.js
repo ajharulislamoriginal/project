@@ -97,7 +97,7 @@ copyButtons.forEach(btn => {
 
                 coin -= 20;
                 if (coin < 0) coin = 0;
-                coinElement.innerHTML = coin + '  <img src="../assets/coin.png" alt="">';
+                coinElement.innerHTML = coin + '  <img src="assets/coin.png" alt="">';
             } else {
                 alert("আপনার একাউন্টে পর্যাপ্ত কয়েন নেই");
             }
